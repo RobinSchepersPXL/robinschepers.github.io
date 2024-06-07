@@ -1,0 +1,220 @@
+<!-- Robin Schepers-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<nav class="navbar bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Offcanvas navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
+<nav>
+    <div class="col d-flex flex-row justify-content-end align-items-center ">
+        <a href="#go-aboat">
+            <p class="px-3" id="nav-hover1">About</p>
+        </a>
+
+        <a href="#go-projecten">
+            <p class="px-3" id="nav-hover2">projecten</p>
+        </a>
+
+        <a href="#go-opdrachten">
+            <p class="px-3" id="nav-hover3">opdrachten</p>
+        </a>
+
+        <a href="#go-eindreflectie">
+            <p class="px-3" id="nav-hover4">eindreflectie</p>
+        </a>
+
+        <button class="button">
+            <span class="material-symbols-outlined" id="icon-hover1">
+                wb_sunny
+            </span>
+        </button>
+    </div>
+</nav>
+<header class="py-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col d-flex flex-column align-items-center my-5 py-5">
+                <h1 class="py-4">Robin Schepers</h1>
+                <h2 class="py-4">A portfolio worth exploring.</h2>
+                <a href="#go-aboat">
+                    <span class=" m-5 material-symbols-outlined" id="icon-hover2">expand_more</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="my-5">
+    <div class="container-sm container-md container-lg container-about py-5" id="go-aboat">
+        <div class="row">
+            <div class="col">
+                <h2 class="py-2">About</h2>
+            </div>
+        </div>
+        <div class="row d-flex align-items-center flex-column-reverse ">
+                <div class="col container-about-p d-flex justify-content-center">
+                    <p>Hallo, mijn naam is Robin Schepers. Ik ben een student  aan de hogeschool PXL in de opleiding digitalevorming. Mijn passies zijn vooral gericht rond het ontwerpen van websites, zeker het gebruiken van de programmeertalen zoals HTML, CSS en Javascript. Ook ben ik geinteresseerd in de hardware van electronica producten. Dit kan een positieve meerwaarde zijn voor iemand die een job als web developer wil uitvoeren.</p>
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <img class="m-3 container-about-image" src="assets/Robin-image.png" height="542" width="542" alt="profile photo"/>
+                </div>
+        </div>
+    </div>
+    <div class="container-sm container-md container-lg my-5" id="go-projecten">
+        <div class="row">
+            <div class="col py-5">
+                <h2>Projecten</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col m-3 d-flex justify-content-center">
+                <a href="https://github.com/RobinSchepersPXL/webtech_project" target="_blank"><!--https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_target-->
+                    <img class="container-project-image" src="assets/WebtechProject.png" alt="Webtech" />
+                </a>
+           </div>
+            <div class="col m-3 d-flex justify-content-center">
+                <a href="https://github.com/PXL-WebEssentials/webshop-offroad-RobinSchepersPXL" target="_blank"><!--https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_target-->
+                    <img class="container-project-image" src="assets/ROAD.png" alt="Road"/>
+                </a>
+           </div>
+            <div class="col m-3 d-flex justify-content-center">
+                <a href="https://github.com/RobinSchepersPXL/Website-Phillippe-S" target="_blank"><!--https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_target-->
+                    <img class="container-project-image" src="assets/Philippe S Project.png" alt="Philippe"/>
+                </a>
+          </div>
+        </div>
+    </div>
+    <div class="container-sm container-md container-lg my-5" id="go-opdrachten">
+        <div class="row">
+            <div class="col py-5">
+                <h2>Opdrachten</h2>
+            </div>
+        </div>
+        <div class="row container-opdrachten d-flex justify-content-evenly">
+            <div class="col container-opdracht-div m-5 ">
+                <h4 class=" py-5">POP sessies</h4>
+                <a href="assets/POP-bestanden.zip" download>
+                    <p class="container-opdracht-p py-1" id="button-hover1">download</p><!--https://www.w3schools.com/tags/att_a_download.asp-->
+                </a>
+            </div>
+            <div class="col container-opdracht-div m-5 ">
+                <h4 class=" py-5 ">Seminaries </h4>
+                <a href="assets/Reflectie-seminaries+analyse-arbeidsmarkt-bestanden-bestanden.zip">
+                    <p class="container-opdracht-p py-1" id="button-hover2">download</p><!-->
+                </a>
+        </div>
+            <div class="col container-opdracht-div m-5 ">
+                <h4 class=" py-5 ">Concept poster</h4>
+                <a href="assets/concept-poster-bestand%20.zip">
+                    <p class="container-opdracht-p py-1" id="button-hover3">download</p><!--https://www.w3schools.com/tags/att_a_download.asp-->
+                </a>
+          </div>
+            <div class="col container-opdracht-div m-5 " >
+                <h4 class=" py-5 ">dashboard</h4>
+                <a href="https://www.figma.com/file/UBsmf2b4r0Qc67qOR51mhq/Werkplekleren-inleverbestand?type=design&node-id=1%3A403&mode=design&t=Ee0RyFz4MxFWFUIJ-1" target="_blank">
+                    <!--https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_target-->
+                    <p class="container-opdracht-p py-1" id="button-hover4">link</p>
+                </a>
+           </div>
+        </div>
+    </div>
+    <div class="container-sm container-md container-lgr my-5" id="go-eindreflectie">
+        <div class="row">
+            <div class="col py-5">
+                <h2>Eindreflectie</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col container-eindreflectie p-3">
+                <p>
+                    Ik heb veel bijgeleerd tijdens mijn tijd die ik in werplekleren1 heb besteed. Ook over het proces  dat er moet gebeuren om het eindresultaat van een  project te finaliseren. Door de technieken meer te gebruiken kan ik mij er ook in verbeteren en dat vind ik wel leerrijk om dit proces positief te ervaren.
+                </p>
+                <h4 class="py-3">Organisatorisch vlak</h4>
+                <p>
+                    Op organisatorisch vlak heb ik ondekt dat het soms moeilijk kan zijn om van op voorhand een planning te maken, want niet iedereen kan op het zelfde tijdstiip samenkomen om aan een groepswerk te werken. Ook kan je niet voordien inschatten dat je uiteindelijk de deadline moeilijk gaat behalen. Tijdens  het groepsproject  dachten we dat we eerst voor op ons schema waren, maar ons project was uiteindelijk nog niet volledig, zodat onze planning er weer anders uitzag. Daardoor heb ik geleerd dat het zeer belangrijk is om extra tijd in de planning te voorzien, zodat wanneer er iets gebeurt dat je altijd voor jouw deadline zit. Waarmee ik  bedoel dat je zou moeten kunnen bereiken dat je een  paar dagen voor de echte dealine klaar zou zijn.  Ook op dit vlak heb ik geleerd dat je niet altijd op iemand  kan rekenen en dat het  daarvoor een goed idee is om op voorhand een afsraak te maken. Dit is praktischer en gemakkelijker te organiseren wanneer je dit tijdens jouw job moet regelen, omdat iedereen dan vaste uren heeft waardoor er dan  gemakkelijker afspraken in te plannen zijn.
+                </p>
+                <h4 class="py-3">Persoonlijk vlak</h4>
+                <p>
+                    Op persoonlijk vlak heb ik geleerd hoe ik met mijn groepsgenoten beter moet communiceren, zodat er minder vlug misverstanden kunnen ontstaan  en dat het ook handiger is om ideeën uit te wisselen.
+                    Doordat er in groep moet worden samengewerkt moet er tijdig duidelijk over de planning worden gecommuniccerd en een volledig schema worden uitgewerkt.
+                    Ook heb ik  geleerd om soms de leiding te nemen zeker wanneer ik aanvoelde wanneer er soms iets niet  duidelijk was  of wanneer er soms niet voldoende werd gecommuniceerd  of om het tempo wat op te drijven, zodat we tijdig klaar konden geraken. Ook moet je zorgen dat iedereen hetzelfde idee heeft om dit samen uit te werken, zodat er tijdens de opdracht of nadien  niet teveel nog moet worden veranderd, want  het project moet als 1 deel worden afgeleverd.
+                </p>
+                <h4 class="py-3">Technisch vlak</h4>
+                <p>
+                    Ik heb nu ook een beter zicht gekregen in het feit hoe de theorie die we tijdens de lessen hebben gezien beter kan worden omgezet in de praktijk en kan worden gebruikt . Dit zal héél belangrijk zijn voor het verdere verloop van mijn professionele carrière.  Soms moest ik wel wat opzoekingswerk doen om de theorie  te herhalen en om de juiste theorie te vinden, zodat dit in de praktijk kon worden gebruikt. Deze werkwijze had ik ook wel nodig om op deze manier meer te kunnen bijleren. Het zou interressant zijn om een extra studie interesse (react, angular, …)
+                    in de vakrichting te krijgen die niet verplicht is, maar toch een extra toegevoegde waarde voor de studierichting zou zijn.
+                </p>
+                <h4 class="py-3">Belangrijke kwaliteiten</h4>
+                <p>
+                    De professionele kwaliteiten kwamen hier zeker in aanmerking, want ik moest soms het leiderschap nemen. Dit vond ik wel zeer leerzaam daar ik dit in mijn verdere carrière ook wel eens zal moeten doen. Ik heb ook ondervonden dat ik zelfstandig ben en dit vind ik toch een positieve eigenschap op het  professioneel vlak.
+                    Waar ik op professioneel vlak nog zou willen aan  werken is om nog vlotter te communiceren met mijn colega’s. Het is ook belangrijker om eerst een duidelijk schema over de basis van het project te maken en om dan nadien pas over de datails te spreken. Dit zou op het einde  misschien tot een beter resultaat kunnen komen.
+                    Wat ik misschien meer had willen zien is wat de verschillende taken van  de developers en de designers zijn en hoe die verdeeld zijn. Ook zou het handiger zijn om de planning te weten over welke taken het eerst moeten worden afgehandeld en welke het laatst. We hebbben nu wel de basis van hoe de indeling van de taken bij de  designers verloopt, maar niet zo echt hoe dit bij de developers verloopt. Ook  had ik graag al iets geleerd over Java Script library zoals react om mijn portfolio te kunnen verbeteren.
+                </p>
+                <p>
+                    Ik heb veel geleerd over hoe de theorie kan werken in de praktijk. Ik heb ook  veel geleerd op organisatorisch en technisch vlak . Ook weet ik nu welke hard en soft kwaliteiten ik in de toekomst wil verbeteren door de ervaring die ik heb opgedaan tijdens het vak werkplekleren1.
+                </p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col d-flex justify-content-center m-2">
+                <a href="assets/Eindreflectie-bestand.zip">
+                    <p class="container-eindreflectie-button" id="button-hover5">download</p><!--https://www.w3schools.com/tags/att_a_download.asp-->
+                </a>
+          </div>'
+        </div>
+
+    </div>
+</main>
+<footer>
+    <div class="container-fluid d-flex justify-content-center  py-5">
+        <div class="row">
+            <div class="col container-footer d-flex justify-content-evenly align-items-center my-5">
+                <a href="https://github.com/RobinSchepersPXL" target="_blank"><!--https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_target-->
+                    <img class="m-3" src="assets/Github-icon.png" height="116" width="112" alt="github-icon"/>
+                </a>
+               <a href="https://www.linkedin.com/in/robin-schepers-566201227/" target="_blank"><!--https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_target-->
+                   <img class="m-3" src="assets/Instagram-icon.png" height="116" width="96" alt="linkdin-icon"/>
+               </a>
+                <a href="https://www.instagram.com/schepers29/" target="_blank"><!--https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_target-->
+                    <img class="m-3" src="assets/linkdin-icon.png" height="112" width="98" alt="instagram-icon"/>
+                </a>
+                <a href="#go-top">
+                    <span class="material-symbols-outlined" id="icon-hover3">
+                        expand_less
+                    </span>
+                </a>
+
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
