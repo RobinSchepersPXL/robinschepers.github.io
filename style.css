@@ -139,6 +139,10 @@ footer img{
     width: 2.5rem;
     height: auto;
 }
+#carouselExampleFade{
+    width: 750px;
+    height: auto;
+}
 
 .dark-mode{
     /*https://mycolor.space/?hex=%238685EF&sub=1*/
